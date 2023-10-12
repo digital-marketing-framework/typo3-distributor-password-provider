@@ -36,12 +36,12 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "DigitalMarketingFramework\\Typo3\\Distributor\\Password\\": "Classes"
+            "DigitalMarketingFramework\\Typo3\\Distributor\\PasswordProvider\\": "Classes"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "DigitalMarketingFramework\\Typo3\\Distributor\\Password\\Tests\\": "Tests"
+            "DigitalMarketingFramework\\Typo3\\Distributor\\PasswordProvider\\Tests\\": "Tests"
         }
     },
     "config": {

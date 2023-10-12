@@ -1,8 +1,8 @@
 <?php
 
-namespace DigitalMarketingFramework\Typo3\Distributor\Password\Registry\EventListener;
+namespace DigitalMarketingFramework\Typo3\Distributor\PasswordProvider\Registry\EventListener;
 
-use DigitalMarketingFramework\Distributor\Password\DistributorPasswordInitialization;
+use DigitalMarketingFramework\Distributor\PasswordProvider\DistributorPasswordInitialization;
 use DigitalMarketingFramework\Typo3\Distributor\Core\Registry\EventListener\AbstractDistributorRegistryUpdateEventListener;
 
 class DistributorRegistryUpdateEventListener extends AbstractDistributorRegistryUpdateEventListener
