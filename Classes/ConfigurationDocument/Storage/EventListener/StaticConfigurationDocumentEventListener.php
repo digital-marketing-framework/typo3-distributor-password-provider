@@ -8,6 +8,6 @@ class StaticConfigurationDocumentEventListener extends OriginalStaticConfigurati
 {
     protected function getExtensionKey(): string
     {
-        return 'dmf_distributor_password_provider';
+        return 'dmf_distributor_password';
     }
 }
