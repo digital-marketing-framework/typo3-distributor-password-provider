@@ -9,6 +9,6 @@ class DistributorRegistryUpdateEventListener extends AbstractDistributorRegistry
 {
     public function __construct()
     {
-        parent::__construct(new DistributorPasswordInitialization());
+        parent::__construct(new DistributorPasswordInitialization('dmf_distributor_password'));
     }
 }
